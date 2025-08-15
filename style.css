@@ -101,7 +101,17 @@ h1, h2 { margin-top: 12px; letter-spacing: 1px; }
   z-index: 200;
 }
 canvas { display: block; }
-@media (max-width: 768px) {
-  .section {padding: 15px 10px;}
-  .firework-img {margin: 12px 0;}
+
+@media (max-width: 750px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0 0 0;
+  }
+  nav a {
+    margin: 0;
+  }
 }
+
