@@ -15,7 +15,7 @@ Object.keys(navMap).forEach(id => {
 
 // Redirect button for Order Now
 document.getElementById('redirectBtn').onclick = function() {
-  window.location.href='https://sivakasikrishnacrackers.com/';
+  window.location.href='https://teslacrackers.com/';
 };
 
 // Fireworks animation (canvas)
@@ -57,4 +57,5 @@ function drawFireworks() {
   requestAnimationFrame(drawFireworks);
 }
 drawFireworks();
+
 
