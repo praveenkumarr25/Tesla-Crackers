@@ -1,9 +1,6 @@
 // Navigation transitions
 const navMap = {
   'nav-home' : 'page-home',
-  'nav-about': 'page-about',
-  'nav-contact': 'page-contact',
-  'nav-price': 'page-price'
 };
 Object.keys(navMap).forEach(id => {
   document.getElementById(id).onclick = function(e){
@@ -60,3 +57,4 @@ function drawFireworks() {
   requestAnimationFrame(drawFireworks);
 }
 drawFireworks();
+
