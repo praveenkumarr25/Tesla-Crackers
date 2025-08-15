@@ -15,7 +15,7 @@ Object.keys(navMap).forEach(id => {
 
 // Redirect button for Order Now
 document.getElementById('redirectBtn').onclick = function() {
-  window.location.href='https://teslacrackers.com/';
+  window.location.href='https://teslacrackers.com/products.php?device=desktop';
 };
 
 // Fireworks animation (canvas)
@@ -57,5 +57,6 @@ function drawFireworks() {
   requestAnimationFrame(drawFireworks);
 }
 drawFireworks();
+
 
 
