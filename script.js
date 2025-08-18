@@ -17,6 +17,10 @@ Object.keys(navMap).forEach(id => {
 document.getElementById('redirectBtn').onclick = function() {
   window.location.href='https://teslacrackers.com/products.php?device=desktop';
 };
+// Redirect to the web
+document.getElementById("image").onclick= function() {
+  window.location.href='https://teslacrackers.com/products.php?device=desktop';
+}
 
 // Fireworks animation (canvas)
 const canvas = document.getElementById('fwc'), ctx = canvas.getContext('2d');
@@ -57,6 +61,7 @@ function drawFireworks() {
   requestAnimationFrame(drawFireworks);
 }
 drawFireworks();
+
 
 
 
