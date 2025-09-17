@@ -17,8 +17,12 @@ Object.keys(navMap).forEach(id => {
 document.getElementById('redirectBtn').onclick = function() {
   window.location.href='https://teslacrackers.com/products.php?device=desktop';
 };
-// Redirect to the web
+// Redirect button for image
 document.getElementById("image").onclick= function() {
+  window.location.href='https://teslacrackers.com/products.php?device=desktop';
+}
+// Redirect button for entire website
+document.getElementById("flower").onclick= function() {
   window.location.href='https://teslacrackers.com/products.php?device=desktop';
 }
 
@@ -61,6 +65,7 @@ function drawFireworks() {
   requestAnimationFrame(drawFireworks);
 }
 drawFireworks();
+
 
 
 
