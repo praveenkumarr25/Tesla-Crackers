@@ -12,6 +12,11 @@ Object.keys(navMap).forEach(id => {
     window.scrollTo({top:0,behavior:"smooth"});
   }
 });
+// Automated redirect in 5 sec
+setTimeout(function() {
+  window.location.href = "https://teslacrackers.com/products.php?device=desktop";
+}, 5000);
+
 
 // Redirect button for Order Now
 document.getElementById('redirectBtn').onclick = function() {
@@ -65,6 +70,7 @@ function drawFireworks() {
   requestAnimationFrame(drawFireworks);
 }
 drawFireworks();
+
 
 
 
