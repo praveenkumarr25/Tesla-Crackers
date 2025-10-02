@@ -12,24 +12,24 @@ Object.keys(navMap).forEach(id => {
     window.scrollTo({top:0,behavior:"smooth"});
   }
 });
-// Automated redirect in 5 sec
-setTimeout(function() {
-  window.location.href = "https://teslacrackers.com/products.php?device=desktop";
-}, 2000);
+// // Automated redirect in 5 sec
+// setTimeout(function() {
+//   window.location.href = "https://teslacrackers.com/products.php?device=desktop";
+// }, 2000);
 
 
-// Redirect button for Order Now
-document.getElementById('redirectBtn').onclick = function() {
-  window.location.href='https://teslacrackers.com/products.php?device=desktop';
-};
-// Redirect button for image
-document.getElementById("image").onclick= function() {
-  window.location.href='https://teslacrackers.com/products.php?device=desktop';
-}
-// Redirect button for entire website
-document.getElementById("flower").onclick= function() {
-  window.location.href='https://teslacrackers.com/products.php?device=desktop';
-}
+// // Redirect button for Order Now
+// document.getElementById('redirectBtn').onclick = function() {
+//   window.location.href='https://teslacrackers.com/products.php?device=desktop';
+// };
+// // Redirect button for image
+// document.getElementById("image").onclick= function() {
+//   window.location.href='https://teslacrackers.com/products.php?device=desktop';
+// }
+// // Redirect button for entire website
+// document.getElementById("flower").onclick= function() {
+//   window.location.href='https://teslacrackers.com/products.php?device=desktop';
+// }
 
 // Fireworks animation (canvas)
 const canvas = document.getElementById('fwc'), ctx = canvas.getContext('2d');
@@ -70,6 +70,7 @@ function drawFireworks() {
   requestAnimationFrame(drawFireworks);
 }
 drawFireworks();
+
 
 
 
